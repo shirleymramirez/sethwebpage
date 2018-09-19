@@ -18,7 +18,8 @@ class Home extends Component {
               <p>
                 Consistent "A" student | enthusiastic and loves reading books |
                 knows how to play piano | good at playing sports like baseball
-                and soccer | enjoys watching editorial videos in youtube
+                and soccer | enjoys watching youtube video games | loves dancing
+                | favorite foods are cheese, meatballs with barbeque sauce
               </p>
               <div className="social-links">
                 {/* Linkedln */}
