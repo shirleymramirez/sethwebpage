@@ -8,9 +8,11 @@ class Home extends Component {
         <Grid className="home-grid">
           <Cell col={12}>
             <img
-              src="https://cdn0.iconfinder.com/data/icons/avatar-circle/248/Boy_man_male_kid_smile_happy_blue_Avatar_-512.png"
+              // src="https://cdn0.iconfinder.com/data/icons/avatar-circle/248/Boy_man_male_kid_smile_happy_blue_Avatar_-512.png"
+              src={require("../../images/seth.png")}
               alt="avatar"
               className="avatar-img"
+              style={{ height: "300px", paddingBottom: "10px" }}
             />
             <div className="banner-text">
               <h1>Third Grade Student</h1>
