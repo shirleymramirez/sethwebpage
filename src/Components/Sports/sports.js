@@ -198,7 +198,7 @@ class Sports extends Component {
           <Tab>Soccer</Tab>
           <Tab>Baseball</Tab>
         </Tabs>
-        \{" "}
+
         <Grid>
           <Cell col={12}>
             <div className="content">{this.toggleCategories()}</div>

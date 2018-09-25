@@ -25,7 +25,10 @@
 }
 .avatar-img {
   height: 250px;
-  padding-top: 5em;
+  width: 250px;
+  margin-top: 5em;
+  margin-bottom: 10px;
+  border-radius: 300px;
 }
 .banner-text {
   background-color: black;
@@ -59,4 +62,31 @@
   color: white;
   font-size: 5em;
   padding: 8px;
+}
+.homework-grid {
+  background: #ada996;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #eaeaea,
+    #dbdbdb,
+    #f2f2f2,
+    #ada996
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #eaeaea, #dbdbdb, #f2f2f2, #ada996);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 500px;
+}
+.school-activity {
+  background: #3e5151;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #decba4, #3e5151);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #decba4, #3e5151);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  height: 500px;
+}
+.homework-grid h1,
+.school-activity h1 {
+  text-align: center;
 }

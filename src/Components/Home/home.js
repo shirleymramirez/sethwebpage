@@ -4,7 +4,7 @@ import { Grid, Cell } from "react-mdl";
 class Home extends Component {
   render() {
     return (
-      <div styele={{ width: "100%", margin: "auto" }}>
+      <div style={{ width: "100%", margin: "auto" }}>
         <Grid className="home-grid">
           <Cell col={12}>
             <img
@@ -12,7 +12,6 @@ class Home extends Component {
               src={require("../../images/seth.png")}
               alt="avatar"
               className="avatar-img"
-              style={{ height: "300px", paddingBottom: "10px" }}
             />
             <div className="banner-text">
               <h1>Third Grade Student</h1>
@@ -61,7 +60,6 @@ class Home extends Component {
             </div>
           </Cell>
         </Grid>
-        <h1>Home Page</h1>
       </div>
     );
   }
